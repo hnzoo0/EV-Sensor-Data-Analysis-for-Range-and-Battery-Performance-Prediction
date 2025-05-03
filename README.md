@@ -1,11 +1,11 @@
 ## 데이터셋 다운로드
-https://ieee-dataport.org/open-access/battery-and-heating-data-real-driving-cycles
+[다운로드](https://ieee-dataport.org/open-access/battery-and-heating-data-real-driving-cycles)
 
 
 
 ## ❗ 문제 정의
 
----
+
 
 - 분석 및 시각화의 중점  
     - 변수 간의 상관 관계를 분석하여, 주행 거리에 대한 영향도 파악  
@@ -14,7 +14,7 @@ https://ieee-dataport.org/open-access/battery-and-heating-data-real-driving-cycl
 - 문제의 필요성 및 중요성  
     - 효율적 운행과 수명을 보장하기 위해 배터리를 관리해야 하므로 다양한 센서 데이터를 기반으로 고장 또는 이상 징후를 조기에 감지하거나 주행 가능 거리를 예측하고자 함
 
----
+
 
 ## 📊 데이터 활용 계획
 
@@ -27,7 +27,7 @@ https://ieee-dataport.org/open-access/battery-and-heating-data-real-driving-cycl
 - 대시보드 구성 계획  
     - 주요 KPI 'big Y'로 제시, 하단에는 KPI들을 그래프로 시각화하여 제시
 
----
+
 
 ## 🎯 예상 결과물 및 기대 효과
 
@@ -40,3 +40,44 @@ https://ieee-dataport.org/open-access/battery-and-heating-data-real-driving-cycl
 
 - 기대 효과  
     - 회생 제동이 주행 가능 거리에 미치는 영향, 난방 및 에어컨 사용량이 SoC 감소에 미치는 정도
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+## Dataset Download
+[Download](https://ieee-dataport.org/open-access/battery-and-heating-data-real-driving-cycles)
+
+## ❗ Problem Definition
+- Focus of Analysis and Visualization
+
+  - Analyze the correlation between variables to understand their influence on driving range.
+  - Utilize Line plots, KDEs, etc., to identify the influence of KPIs.
+    
+- Necessity and Importance of the Problem
+
+  - Given the need to manage the battery to ensure efficient operation and longevity, the goal is to detect faults or abnormal signs early or predict the possible driving range based on various sensor data.
+    
+## 📊 Data Utilization Plan
+- Data Source
+
+  - Actual driving data from BMW i3 (60Ah).
+    
+- Data Preprocessing and Analysis Plan
+
+  - Handling of missing and duplicate values, outlier processing through IQR and normalization.
+    
+-Dashboard Configuration Plan
+
+  - Present key KPIs as the 'big Y', and visualize related KPIs with graphs below.
+    
+## 🎯 Expected Outcomes and Benefits
+- Expected Outcomes
+
+  - Minimization of driving range reduction by preventing battery performance degradation.
+    
+- Key Dashboard Components
+
+  - Numerical values of key KPIs, visualization materials related to KPIs.
+
+- Expected Benefits
+
+  - Understanding the impact of regenerative braking on driving range, and the extent to which heating and air conditioning usage affects SoC (State of Charge) reduction.
